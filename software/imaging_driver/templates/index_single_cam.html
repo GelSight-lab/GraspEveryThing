@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Pi Video Surveillance</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>GelSight Camera Interface</h1>
+        </div>
+
+        <div class="FPS">
+            <p id="fps"></p>
+        </div>
+
+        <div class="stream">
+            <img src="{{ url_for('video_feed',id=0) }}" alt="" />
+        </div>
+        
+        <script src="{{ url_for('static', filename='js/app.js') }}" type="module"></script>
+    </body>
+</html>

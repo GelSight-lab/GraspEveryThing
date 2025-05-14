@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Pi Video Surveillance</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="stream">
+            <img src="{{ url_for('video_feed',id=0) }}" alt="" />
+            <img src="{{ url_for('video_feed',id=1) }}" alt="" />
+        </div>
+
+        <div id="settings">
+            <h1 class="title">RPi Camera Interface</h1>
+
+        
+            <audio controls class="audio">
+                <source src="{{ url_for('audio') }}" type="audio/x-wav;codec=pcm">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div id="settings-display">
+                <div id="tab-links"></div>
+                <div id="tab-contents"></div>
+            </div>
+
+            <div id="settings-footer">
+                <button id="btn-upload">Upload</button>
+                <button id="btn-fetch">Fetch</button>
+                <button id="btn-reset">Reset to default</button>
+            </div>
+
+        </div>
+
+        <script src="{{ url_for('static', filename='js/app.js') }}" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+[Unit]
+Description=Imaging service for LBM tactile sensing
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/imaging_driver/run.py
+
+[Install]
+WantedBy=multi-user.target

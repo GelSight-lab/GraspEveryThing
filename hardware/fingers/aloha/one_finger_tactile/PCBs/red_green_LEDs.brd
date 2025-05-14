@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="-1.65" x2="56.5" y2="-1.65" width="0" layer="20"/>
+<wire x1="56.5" y1="-1.65" x2="56.5" y2="1.65" width="0" layer="20"/>
+<wire x1="56.5" y1="1.65" x2="0" y2="1.65" width="0" layer="20"/>
+<wire x1="0" y1="1.65" x2="0" y2="-1.65" width="0" layer="20"/>
+<text x="40.5" y="-0.5" size="1.27" layer="26" rot="MR0">Board Design by M H Tippur</text>
+</plain>
+<libraries>
+<library name="APT3216ZGC" urn="urn:adsk.eagle:library:45195231">
+<description>&lt;Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="APT3216ZGC" urn="urn:adsk.eagle:footprint:45195232/1" library_version="2">
+<description>&lt;b&gt;1206 (3216 Metric)_2023&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.325" y="0" dx="0.65" dy="1.5" layer="1"/>
+<smd name="2" x="1.325" y="0" dx="0.65" dy="1.5" layer="1"/>
+<wire x1="-1.65" y1="0.8" x2="1.65" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-0.8" x2="-1.65" y2="-0.8" width="0.1" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="APT3216ZGC" urn="urn:adsk.eagle:package:45195234/2" type="model" library_version="2">
+<description>&lt;b&gt;1206 (3216 Metric)_2023&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="APT3216ZGC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="BoardConnectorPin_Straight" urn="urn:adsk.eagle:library:36016866">
+<packages>
+<package name="1,0/0,75" urn="urn:adsk.eagle:footprint:38769108/3" library_version="30">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.016" shape="octagon"/>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="1,0/0,75" urn="urn:adsk.eagle:package:38769109/4" type="model" library_version="30">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="1,0/0,75"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="oshpark-2layer">
+<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+&lt;p&gt;
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;
+&lt;p&gt;
+Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
+&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
+&lt;/p&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
+<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="15mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="10mil"/>
+<param name="msMicroVia" value="10mil"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="5mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="5mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="5mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="5mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="5mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="LED1" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="1" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="2.27" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED10" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="19.9" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="31.33" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED11" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="22" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="33.43" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED12" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="24.1" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="35.53" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED13" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="26.2" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="37.63" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED14" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="28.3" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="42.27" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED15" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="30.4" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="44.37" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED16" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="32.5" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="46.47" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED17" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="34.6" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="48.57" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED18" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="36.7" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="53.21" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED19" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="38.8" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="55.31" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED2" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="3.2" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="9.55" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED20" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="40.9" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="57.41" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED21" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="43" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="59.51" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED22" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="45.1" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="64.15" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED23" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="47.2" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="66.25" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED24" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="49.3" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="68.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED25" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="51.4" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="70.45" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED26" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="53.5" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="75.09" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED3" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="5.2" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="11.55" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED4" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="7.3" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="13.65" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED5" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="9.4" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="15.75" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED6" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="11.5" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="20.39" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED7" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="13.6" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="22.49" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED8" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="15.7" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="24.59" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="LED9" library="APT3216ZGC" library_urn="urn:adsk.eagle:library:45195231" package="APT3216ZGC" package3d_urn="urn:adsk.eagle:package:45195234/2" value="APT3216ZGC" x="17.8" y="0" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Green 525nm LED Indication - Discrete 3.3V 1206 (3216 Metric)" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT3216ZGC" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT3216ZGC" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT3216ZGC?qs=f499HRGa1RlpA1toCLDk0g%3D%3D" x="26.69" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="VCC" library="BoardConnectorPin_Straight" library_urn="urn:adsk.eagle:library:36016866" package="1,0/0,75" package3d_urn="urn:adsk.eagle:package:38769109/4" value="1,0/0,75" x="55.4" y="0.8" smashed="yes">
+<attribute name="NAME" x="56.438" y="0.216" size="0.3048" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="55.4" y="1.4" size="0.0254" layer="27"/>
+</element>
+<element name="GND" library="BoardConnectorPin_Straight" library_urn="urn:adsk.eagle:library:36016866" package="1,0/0,75" package3d_urn="urn:adsk.eagle:package:38769109/4" value="1,0/0,75" x="55.4" y="-0.8" smashed="yes">
+<attribute name="NAME" x="56.438" y="-1.284" size="0.3048" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="55.4" y="-0.2" size="0.0254" layer="27"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<contactref element="LED26" pad="1"/>
+<contactref element="LED25" pad="1"/>
+<contactref element="LED24" pad="1"/>
+<contactref element="LED23" pad="1"/>
+<contactref element="LED22" pad="1"/>
+<contactref element="LED21" pad="1"/>
+<contactref element="LED20" pad="1"/>
+<contactref element="LED19" pad="1"/>
+<contactref element="LED18" pad="1"/>
+<contactref element="LED17" pad="1"/>
+<contactref element="LED16" pad="1"/>
+<contactref element="LED15" pad="1"/>
+<contactref element="LED14" pad="1"/>
+<contactref element="LED13" pad="1"/>
+<contactref element="LED12" pad="1"/>
+<contactref element="LED11" pad="1"/>
+<contactref element="LED10" pad="1"/>
+<contactref element="LED9" pad="1"/>
+<contactref element="LED8" pad="1"/>
+<contactref element="LED7" pad="1"/>
+<contactref element="LED6" pad="1"/>
+<contactref element="LED5" pad="1"/>
+<contactref element="LED4" pad="1"/>
+<contactref element="LED3" pad="1"/>
+<contactref element="LED2" pad="1"/>
+<contactref element="LED1" pad="1"/>
+<contactref element="GND" pad="1"/>
+<wire x1="53.5" y1="-1.325" x2="55.4" y2="-0.8" width="0.254" layer="1"/>
+<wire x1="1" y1="-1.325" x2="3.2" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="3.2" y1="-1.325" x2="5.2" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="5.2" y1="-1.325" x2="7.3" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="7.3" y1="-1.325" x2="9.4" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="9.4" y1="-1.325" x2="11.5" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="11.5" y1="-1.325" x2="13.6" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="13.6" y1="-1.325" x2="15.7" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="15.7" y1="-1.325" x2="17.8" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="17.8" y1="-1.325" x2="19.9" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="19.9" y1="-1.325" x2="22" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="22" y1="-1.325" x2="24.1" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="24.1" y1="-1.325" x2="26.2" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="26.2" y1="-1.325" x2="28.3" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="28.3" y1="-1.325" x2="30.4" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="30.4" y1="-1.325" x2="32.5" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="32.5" y1="-1.325" x2="34.6" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="34.6" y1="-1.325" x2="36.7" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="36.7" y1="-1.325" x2="38.8" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="38.8" y1="-1.325" x2="40.9" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="40.9" y1="-1.325" x2="43" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="43" y1="-1.325" x2="45.1" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="45.1" y1="-1.325" x2="47.2" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="47.2" y1="-1.325" x2="49.3" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="49.3" y1="-1.325" x2="51.4" y2="-1.325" width="0.254" layer="1"/>
+<wire x1="51.4" y1="-1.325" x2="53.5" y2="-1.325" width="0.254" layer="1"/>
+<polygon width="0.254" layer="16" isolate="0.4064">
+<vertex x="-0.5" y="-2"/>
+<vertex x="-0.5" y="2"/>
+<vertex x="57" y="2"/>
+<vertex x="57" y="-2"/>
+</polygon>
+</signal>
+<signal name="PWR">
+<contactref element="LED26" pad="2"/>
+<contactref element="LED25" pad="2"/>
+<contactref element="LED24" pad="2"/>
+<contactref element="LED23" pad="2"/>
+<contactref element="LED22" pad="2"/>
+<contactref element="LED21" pad="2"/>
+<contactref element="LED20" pad="2"/>
+<contactref element="LED19" pad="2"/>
+<contactref element="LED1" pad="2"/>
+<contactref element="LED2" pad="2"/>
+<contactref element="LED3" pad="2"/>
+<contactref element="LED4" pad="2"/>
+<contactref element="LED5" pad="2"/>
+<contactref element="LED6" pad="2"/>
+<contactref element="LED7" pad="2"/>
+<contactref element="LED8" pad="2"/>
+<contactref element="LED9" pad="2"/>
+<contactref element="LED10" pad="2"/>
+<contactref element="LED11" pad="2"/>
+<contactref element="LED12" pad="2"/>
+<contactref element="LED13" pad="2"/>
+<contactref element="LED14" pad="2"/>
+<contactref element="LED15" pad="2"/>
+<contactref element="LED16" pad="2"/>
+<contactref element="LED17" pad="2"/>
+<contactref element="LED18" pad="2"/>
+<contactref element="VCC" pad="1"/>
+<wire x1="1" y1="1.325" x2="3.2" y2="1.325" width="0.254" layer="1"/>
+<wire x1="3.2" y1="1.325" x2="5.2" y2="1.325" width="0.254" layer="1"/>
+<wire x1="5.2" y1="1.325" x2="7.3" y2="1.325" width="0.254" layer="1"/>
+<wire x1="7.3" y1="1.325" x2="9.4" y2="1.325" width="0.254" layer="1"/>
+<wire x1="9.4" y1="1.325" x2="11.5" y2="1.325" width="0.254" layer="1"/>
+<wire x1="11.5" y1="1.325" x2="13.6" y2="1.325" width="0.254" layer="1"/>
+<wire x1="13.6" y1="1.325" x2="15.7" y2="1.325" width="0.254" layer="1"/>
+<wire x1="15.7" y1="1.325" x2="17.8" y2="1.325" width="0.254" layer="1"/>
+<wire x1="17.8" y1="1.325" x2="19.9" y2="1.325" width="0.254" layer="1"/>
+<wire x1="19.9" y1="1.325" x2="22" y2="1.325" width="0.254" layer="1"/>
+<wire x1="22" y1="1.325" x2="24.1" y2="1.325" width="0.254" layer="1"/>
+<wire x1="24.1" y1="1.325" x2="26.2" y2="1.325" width="0.254" layer="1"/>
+<wire x1="26.2" y1="1.325" x2="28.3" y2="1.325" width="0.254" layer="1"/>
+<wire x1="28.3" y1="1.325" x2="30.4" y2="1.325" width="0.254" layer="1"/>
+<wire x1="30.4" y1="1.325" x2="32.5" y2="1.325" width="0.254" layer="1"/>
+<wire x1="32.5" y1="1.325" x2="34.6" y2="1.325" width="0.254" layer="1"/>
+<wire x1="34.6" y1="1.325" x2="36.7" y2="1.325" width="0.254" layer="1"/>
+<wire x1="36.7" y1="1.325" x2="38.8" y2="1.325" width="0.254" layer="1"/>
+<wire x1="38.8" y1="1.325" x2="40.9" y2="1.325" width="0.254" layer="1"/>
+<wire x1="40.9" y1="1.325" x2="43" y2="1.325" width="0.254" layer="1"/>
+<wire x1="43" y1="1.325" x2="45.1" y2="1.325" width="0.254" layer="1"/>
+<wire x1="45.1" y1="1.325" x2="47.2" y2="1.325" width="0.254" layer="1"/>
+<wire x1="47.2" y1="1.325" x2="49.3" y2="1.325" width="0.254" layer="1"/>
+<wire x1="49.3" y1="1.325" x2="51.4" y2="1.325" width="0.254" layer="1"/>
+<wire x1="51.4" y1="1.325" x2="53.5" y2="1.325" width="0.254" layer="1"/>
+<wire x1="55.4" y1="0.8" x2="53.5" y2="1.325" width="0.254" layer="1"/>
+<polygon width="0.254" layer="1" isolate="0.4064">
+<vertex x="-0.5" y="-2"/>
+<vertex x="-0.5" y="2"/>
+<vertex x="57" y="2"/>
+<vertex x="57" y="-2"/>
+</polygon>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
