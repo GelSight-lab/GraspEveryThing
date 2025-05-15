@@ -12,8 +12,6 @@ Paper pre-print is available on [arXiv]()
     <img src="./figures/assembly.png" alt="GET" style="width: 90%; display: block; margin: 0 auto;"/>
 </p>
 
-<br>
-
 ## Hardware Fabrication
 
 In the `hardware` folder of this repository, you will find all CAD files needed to replicated versions of these fingers compatible for use with ALOHA teleoperation system, Franka Panda arm, and UMI gripper. Detailed fabrication instructions are provided below. Simplified versions of the fingers can be built without tactile sensing or silicone gels for more convenient fabrication.
