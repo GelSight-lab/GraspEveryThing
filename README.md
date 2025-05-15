@@ -26,9 +26,7 @@ In the `hardware` folder of this repository, you will find all CAD files needed 
 
 We can use VHB tape as substitute for silicone gels on GET fingers. This allows users to create GET fingers without the need for wet lab experience in silicone molding. This offers a more convenient fabrication process for modest performance tradeoff. In fact, high friction tape may even improve grasp stability. An example prototype of these fingers is displayed here on the right.
 
-<p align="center">
-    <img src="./figures/vhb.jpg" alt="GET fingers made with VHB tape" style="width: 25%; display: block; margin: 0 auto;"/>
-</p>
+<img src="./figures/vhb.jpg" alt="GET fingers made with VHB tape" style="float: right; width: 180px; margin-left: 40px;" />
 
 #### Fabrication Steps:
 1. Navigate to `hardware/fingers_without_gel` and download CAD files for selected robotic platform.
